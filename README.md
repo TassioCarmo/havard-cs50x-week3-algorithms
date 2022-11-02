@@ -27,14 +27,20 @@ common running times
 -O(\log n)
 -O(1)
 
-Ω Omega lower bound/best case scenario
--Ω(n^2)
+Ω Omega
+
+lower bound/best case scenario
+
+Ω(n^2)
 -Ω(n \log n)
 -Ω(n)
 -Ω(\log n)
 -Ω(1)
 
-Θ when both big O and Omega are the same
+Θ Theta 
+
+when both big O and Omega are the same
+
 -Θ(n^2)
 -Θ(n \log n)
 -Θ(n)
