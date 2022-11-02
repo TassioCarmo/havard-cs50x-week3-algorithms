@@ -200,6 +200,73 @@ Else
     Sort right half of number
     Merge sorted halves
     
+    5 2 7 4 1 6 3 0
+
+    We start by looking at the first half, which is a list of size 4:
+
+    5 2 7 4
+
+        We’ll have to sort the left half, which is a list of size 2:
+
+        5 2
+
+            The left half is size 1, so we’re done, and the right half is also size 1, so we can merge both halves together:
+
+            2 5
+
+        Now we’ll need to sort the right half:
+
+        7 4
+
+            Again, we’ll merge both of these halves together, by taking the smallest element from each list
+
+            4 7
+
+        Now we’ve sorted both halves, each of size 2, and can merge them together:
+
+        2 5 | 4 7
+        ^     ^
+
+          5 | 4 7
+          ^   ^
+        2
+
+          5 |   7
+          ^     ^
+        2 4
+
+            |   7
+                ^
+        2 4 5
+
+        2 4 5 7
+
+    We’ll repeat this for the right half, another list of size 4:
+
+    1 6 3 0
+
+        Sorting the left half gives us 1 6, and the right half merges to 0 3.
+        We’ll merge those with:
+
+        1 6 | 0 3
+        ^     ^
+
+        1 6 |   3
+        ^       ^
+        0
+
+          6 |   3
+          ^     ^
+        0 1
+
+          6 |
+          ^
+        0 1 3 
+
+        0 1 3 6
+
+
+    
     2 4 5 7 | 0 1 3 6
 ^         ^
 
