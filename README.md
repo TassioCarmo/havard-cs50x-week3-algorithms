@@ -27,6 +27,8 @@ common running times
 - O(\log n)
 - O(1)
 
+On the order of n over 2 is pretty much the same when n gets really large as being equivalent to big O of n itself
+
 ### Ω Omega
 
 lower bound/best case scenario
