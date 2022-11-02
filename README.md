@@ -23,8 +23,8 @@ Better designed doesn't use up too much memory, and it isn't redundant
 common running times
 - O(n^2)
 - O(n \log n)
-- O(n)
-- O(\log n)
+- O(n) one by one
+- O(\log n) half / half
 - O(1)
 
 On the order of n over 2 is pretty much the same when n gets really large as being equivalent to big O of n itself
