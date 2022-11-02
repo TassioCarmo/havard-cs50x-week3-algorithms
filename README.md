@@ -81,3 +81,7 @@ Searching vs sorting and Searching
 just one it's pointless to sort because you are already seeing the data
 
 if your problem is a Google-like problem where you have more than just one user who's searching for more than just one website page, probably you should incur the cost up front and sort the whole thing because every subsequent request thereafter is going to be faster, faster, faster because it's going to be algorithm of binary search, binary search, binary search that's going to add up to be way fewer steps than doing linear search multiple times
+
+what is your most precious resource? 
+
+Is it time to run the code? Is it time to write the code? Is it the amount of memory the computer is using? 
