@@ -59,7 +59,7 @@ For each door from left to right
         Return true
 Return false
 ```
-Binary Search
+## Binary Search
 
 half and half   O(\log n) and Ω(1)
 only work if the numbers are sorted
@@ -76,7 +76,7 @@ Else if number > middle door
 
 ```
 
-Searching vs sorting and Searching
+### Searching vs sorting and Searching
 
 just one it's pointless to sort because you are already seeing the data
 
