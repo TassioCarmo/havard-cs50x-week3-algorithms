@@ -310,3 +310,4 @@ This time, the 2 is the next smallest, so we’ll move that down, and repeat thi
 
 
 ```
+if you happen to have a data set that is very often sorted, you might want to stick with bubble sort. 
