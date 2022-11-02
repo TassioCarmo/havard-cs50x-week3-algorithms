@@ -21,7 +21,7 @@ Better designed doesn't use up too much memory, and it isn't redundant
 <img src = "https://cs50.harvard.edu/x/2022/notes/3/time_to_solve_zoomed_out.png">
 
 common running times
-- O(n^2)
+- O(n^2) size of array * size of inner array
 - O(n \log n)
 - O(n) one by one
 - O(\log n) half / half
@@ -101,9 +101,9 @@ person;
 **encapsulation** is the idea that related data is grouped together, and here we’ve encapsulated two pieces of information, name and number into the same data structure. The color of a pixel, with red, green, and blue values, might also be well-represented by a data structure as well.
 
 
-## Sorting O(n)
+## Sorting 
 
-### Selection sort 
+### Selection sort O(n^2/2) or O(n^2) also Ω(n^2) because when n is big enough when dealing with potency it doesn't matter
 find the smallest and swap with the swap with th e number in the beginning
 
 ```
@@ -118,7 +118,7 @@ For i from 0 to n–1
     Find smallest number between numbers[i] and numbers[n-1]
     Swap smallest number with numbers[i]
 ```
-### Bubble sort O(n) two by two when the number is big enough it doesn't matter
+### Bubble sort O(n)
 
 compare numbers next to each other 
 
