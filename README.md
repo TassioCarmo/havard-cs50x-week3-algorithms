@@ -1,1 +1,2 @@
-# cs50x-week3-algorithms
+#Introduction to the C language </h1>
+##What did i learn?
