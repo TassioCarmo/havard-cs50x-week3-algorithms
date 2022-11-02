@@ -171,6 +171,7 @@ int main(void)
   
 void draw(int n)
 {
+    //simple base case that will break the recursion
     if (n <= 0)
     {
         return;
