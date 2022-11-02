@@ -48,3 +48,29 @@ when both big O and Omega are the same
 - Θ(n)
 - Θ(\log n)
 - Θ(1)
+
+## Linear search
+
+one by one O(n) and Ω(1)
+
+```
+For each door from left to right
+    If number is behind door
+        Return true
+Return false
+```
+Binary Search
+
+half and half   O(\log n) and Ω(1)
+
+```
+If no doors
+    Return false
+If number behind middle door
+    Return true
+Else if number < middle door
+    Search left half
+Else if number > middle door
+    Search right half
+
+```
