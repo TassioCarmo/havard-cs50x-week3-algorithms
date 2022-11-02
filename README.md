@@ -62,6 +62,7 @@ Return false
 Binary Search
 
 half and half   O(\log n) and Ω(1)
+only work if the numbers are sorted
 
 ```
 If no doors
