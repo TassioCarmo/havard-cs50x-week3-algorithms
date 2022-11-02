@@ -11,9 +11,9 @@ See an array as a bunch of close lockets, because the computer can't see what it
 
 Better designed doesn't use up too much memory, and it isn't redundant
 
-### Running time
+## Running time
 
-BIg O
+### BIg O
 
 “on the order of” something,  higher bound or in other words worst case scenario for the algorithms in relation to steps
  
@@ -27,7 +27,7 @@ common running times
 -O(\log n)
 -O(1)
 
-Ω Omega
+### Ω Omega
 
 lower bound/best case scenario
 
@@ -37,7 +37,7 @@ lower bound/best case scenario
 -Ω(\log n)
 -Ω(1)
 
-Θ Theta 
+### Θ Theta 
 
 when both big O and Omega are the same
 
