@@ -199,8 +199,11 @@ Else
     Sort left half of number
     Sort right half of number
     Merge sorted halves
-    
-    5 2 7 4 1 6 3 0
+```
+How the algorithm works
+
+```   
+ 5 2 7 4 1 6 3 0
 
     We start by looking at the first half, which is a list of size 4:
 
