@@ -190,7 +190,7 @@ What is a piramd of height 4? a piramid of height 3 + one more roll, same logic 
 ####
 
 ```
-### Merge sort
+### Merge sort uses more memory but it's faster O(log n)
 
 ```
 If only one number
