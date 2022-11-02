@@ -109,6 +109,8 @@ Selection sort find the smallest and swap with the swap with th e number in the 
               ^
 
 0 | 2 7 4 1 6 3 5
-
-
-
+```
+For i from 0 to n–1
+    Find smallest number between numbers[i] and numbers[n-1]
+    Swap smallest number with numbers[i]
+```
