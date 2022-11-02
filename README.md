@@ -139,7 +139,7 @@ Repeat n-1 times
 ```
 ### Recursion
 
-    Recursion is the ability for a function to call itself. We haven’t seen this in code yet, but we’ve seen this in pseudocode for binary search:
+ Recursion is the ability for a function to call itself. We haven’t seen this in code yet, but we’ve seen this in pseudocode for binary search:
 
     If no doors
         Return false
@@ -149,3 +149,45 @@ Repeat n-1 times
         Search left half
     Else if number > middle door
         Search right half
+        
+ 
+ 
+ ```
+void draw(int n);
+  
+int main(void)
+{
+    int height = get_int("Height: ");
+
+    draw(height);
+}
+  
+void draw(int n)
+{
+    if (n <= 0)
+    {
+        return;
+    }
+  
+    draw(n - 1);
+  
+    for (int i = 0; i < n; i++)
+    {
+        printf("#");
+    }
+    printf("\n");
+}
+```
+What is a piramd of height 4? a piramid of height 3 + one more roll, same logic applies to recursion 
+```
+#
+##
+###
+
+#
+##
+###
+####
+
+```
+
