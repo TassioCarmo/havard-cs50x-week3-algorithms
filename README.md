@@ -51,7 +51,7 @@ when both big O and Omega are the same
 
 ## Linear search
 
-one by one O(n) and Ω(1)
+one by one, constant number of steps O(n) and Ω(1) you can find it on the first position
 
 ```
 For each door from left to right
