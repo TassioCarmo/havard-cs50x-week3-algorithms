@@ -8,7 +8,12 @@ See an array as a bunch of close lockets, because the computer can't see what it
 <img src = "https://cs50.harvard.edu/x/2022/notes/3/lockers.png">
 
 ## algorithms quality
-### BIg O
+
+Better designed doesn't use up too much memory, and it isn't redundant
+
+### Running time
+
+BIg O
 
 “on the order of” something,  higher bound or in other words worst case scenario for the algorithms in relation to steps
  
