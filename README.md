@@ -98,6 +98,17 @@ typedef struct
 }
 person;
 ```
-
 **encapsulation** is the idea that related data is grouped together, and here we’ve encapsulated two pieces of information, name and number into the same data structure. The color of a pixel, with red, green, and blue values, might also be well-represented by a data structure as well.
+
+
+Sorting
+
+Selection sort find the smallest and swap with the swap with th e number in the beginning
+
+5 2 7 4 1 6 3 0
+              ^
+
+0 | 2 7 4 1 6 3 5
+
+
 
