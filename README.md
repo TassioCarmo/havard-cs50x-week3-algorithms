@@ -86,7 +86,7 @@ what is your most precious resource?
 
 Is it time to run the code? Is it time to write the code? Is it the amount of memory the computer is using? 
 
-##Structs
+## Structs
 
 data type, or data structure
 
@@ -103,7 +103,8 @@ person;
 
 ## Sorting 
 
-### Selection sort O(n^2/2) or O(n^2) also Ω(n^2) because when n is big enough when dealing with potency it doesn't matter
+### Selection sort 
+O(n^2/2) or O(n^2) also Ω(n^2) because when n is big enough when dealing with potency it doesn't matter
 find the smallest and swap with the swap with th e number in the beginning
 
 ```
