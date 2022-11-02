@@ -31,7 +31,7 @@ common running times
 
 lower bound/best case scenario
 
-Ω(n^2)
+- Ω(n^2)
 - Ω(n \log n)
 - Ω(n)
 - Ω(\log n)
