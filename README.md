@@ -85,3 +85,19 @@ if your problem is a Google-like problem where you have more than just one user 
 what is your most precious resource? 
 
 Is it time to run the code? Is it time to write the code? Is it the amount of memory the computer is using? 
+
+##Structs
+
+data type, or data structure
+
+```
+typedef struct
+{
+    string name;
+    string number;
+}
+person;
+```
+
+**encapsulation** is the idea that related data is grouped together, and here we’ve encapsulated two pieces of information, name and number into the same data structure. The color of a pixel, with red, green, and blue values, might also be well-represented by a data structure as well.
+
