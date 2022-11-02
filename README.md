@@ -190,4 +190,53 @@ What is a piramd of height 4? a piramid of height 3 + one more roll, same logic 
 ####
 
 ```
+### Merge sort
 
+```
+If only one number
+  Quit
+Else
+    Sort left half of number
+    Sort right half of number
+    Merge sorted halves
+    
+    2 4 5 7 | 0 1 3 6
+^         ^
+
+2 4 5 7 |   1 3 6
+^           ^
+0
+
+We’ll move the next smallest number, 1, down, and look at the next number in that list:
+
+2 4 5 7 |     3 6
+^             ^
+0 1
+
+This time, the 2 is the next smallest, so we’ll move that down, and repeat this process:
+
+  4 5 7 |     3 6
+  ^           ^
+0 1 2
+
+  4 5 7 |       6
+  ^             ^
+0 1 2 3
+
+    5 7 |       6
+    ^           ^
+0 1 2 3 4
+
+      7 |       6
+      ^         ^
+0 1 2 3 4 5
+
+      7 |
+      ^
+0 1 2 3 4 5 6
+
+        |
+0 1 2 3 4 5 6 7
+
+
+```
