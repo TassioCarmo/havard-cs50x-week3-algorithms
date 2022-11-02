@@ -137,3 +137,15 @@ Repeat n-1 times
     If no swaps
         Quit
 ```
+### Recursion
+
+    Recursion is the ability for a function to call itself. We haven’t seen this in code yet, but we’ve seen this in pseudocode for binary search:
+
+    If no doors
+        Return false
+    If number behind middle door
+        Return true
+    Else if number < middle door
+        Search left half
+    Else if number > middle door
+        Search right half
