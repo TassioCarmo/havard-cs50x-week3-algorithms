@@ -80,9 +80,9 @@ Else if number > middle door
 
 ### Searching vs sorting and Searching
 
-just one it's pointless to sort because you are already seeing the data
+Why would you sort before search? it would be pointless to doit because you are already seeing the data
 
-if your problem is a Google-like problem where you have more than just one user who's searching for more than just one website page, probably you should incur the cost up front and sort the whole thing because every subsequent request thereafter is going to be faster, faster, faster because it's going to be algorithm of binary search, binary search, binary search that's going to add up to be way fewer steps than doing linear search multiple times
+because if your problem is a Google-like problem where you have more than just one user who's searching for more than just one website page,  you problably should incur the cost up front and sort the whole thing for every subsequent request thereafter to be faster, because it's going to be algorithm of binary search instead of linear search which is going to be way fewer steps than doing linear search multiple times
 
 what is your most precious resource? 
 
