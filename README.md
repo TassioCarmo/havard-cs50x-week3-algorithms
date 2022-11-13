@@ -80,11 +80,11 @@ Else if number > middle door
 
 ### Searching vs sorting and Searching
 
-Why would you sort before search? it would be pointless to doit because you are already seeing the data
+Why would you waste your time as a dev sort before search? it would be pointless to doit because you are already seeing the data
 
 because if your problem is a Google-like problem where you have more than just one user who's searching for more than just one website page,  you problably should incur the cost up front and sort the whole thing for every subsequent request thereafter to be faster, because it's going to be algorithm of binary search instead of linear search which is going to be way fewer steps than doing linear search multiple times
 
-what is your most precious resource? 
+But at the end of the day you should always ask yourself as a devolper what is your most precious resource? 
 
 Is it time to run the code? Is it time to write the code? Is it the amount of memory the computer is using? 
 
