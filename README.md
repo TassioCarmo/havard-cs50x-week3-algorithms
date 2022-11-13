@@ -7,15 +7,14 @@ Think an array as a bunch of close lockets, because  the computer can’t look a
 
 <img src = "https://cs50.harvard.edu/x/2022/notes/3/lockers.png">
 
-## algorithms quality
-
-Better designed doesn't use up too much memory, and it isn't redundant
 
 ## Running time
 
+how long an algorithm takes to run given some size of input.
+
 ### BIg O
 
-“on the order of” something,  higher bound or in other words worst case scenario for the algorithms in relation to steps
+“on the order of” something, higher bound or worst case scenario for the algorithms in relation to steps it takes to do something
  
 
 <img src = "https://cs50.harvard.edu/x/2022/notes/3/time_to_solve_zoomed_out.png">
