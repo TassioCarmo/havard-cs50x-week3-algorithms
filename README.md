@@ -19,12 +19,12 @@ how long an algorithm takes to run given some size of input.
 
 <img src = "https://cs50.harvard.edu/x/2022/notes/3/time_to_solve_zoomed_out.png">
 
-common running times
+Common running times
 - O(n^2) size of array * size of inner array
 - O(n \log n)
 - O(n) one by one
 - O(\log n) half / half
-- O(1)
+- O(1) 
 
 On the order of n over 2 is pretty much the same when n gets really large as being equivalent to big O of n itself
 
@@ -50,7 +50,8 @@ when both big O and Omega are the same
 
 ## Linear search
 
-one by one, constant number of steps O(n) and Ω(1) you can find it on the first position
+- O(n) one by one, constant number of steps
+- Ω(1) you can find it on the first position (if you are lucky)
 
 ```
 For each door from left to right
@@ -60,8 +61,10 @@ Return false
 ```
 ## Binary Search
 
-half and half   O(\log n) and Ω(1)
-only work if the numbers are sorted
+- O(\log n) half and half 
+- Ω(1) you can find it on the first position (if you are lucky)
+
+only work if the numbers are sorted tho
 
 ```
 If no doors
