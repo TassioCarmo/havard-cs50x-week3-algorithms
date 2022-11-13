@@ -3,7 +3,7 @@
 
 ### Search
 
-See an array as a bunch of close lockets, because the computer can't see what it's in the with going inside
+Think an array as a bunch of close lockets, because  the computer can’t look at all of the elements at once with an outside view. Instead, a computer can only to look at them one at a time
 
 <img src = "https://cs50.harvard.edu/x/2022/notes/3/lockers.png">
 
