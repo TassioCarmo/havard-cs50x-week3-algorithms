@@ -90,7 +90,8 @@ Is it time to run the code? Is it time to write the code? Is it the amount of me
 
 ## Structs
 
-data type, or data structure
+data type, or data structure which is our own data type,
+typedef struct tells the compiler that we’re defining our own data structure
 
 ```
 typedef struct
@@ -106,7 +107,10 @@ person;
 ## Sorting 
 
 ### Selection sort 
-O(n^2/2) or O(n^2) also Ω(n^2) because when n is big enough when dealing with potency it doesn't matter
+- O(n^2/2) or O(n^2)
+- Ω(n^2) 
+ 
+because when n is big enough when dealing with potency it doesn't matter
 find the smallest and swap with the swap with th e number in the beginning
 
 ```
@@ -121,7 +125,11 @@ For i from 0 to n–1
     Find smallest number between numbers[i] and numbers[n-1]
     Swap smallest number with numbers[i]
 ```
-### Bubble sort O(n)
+### Bubble sort 
+
+- O(n)
+- Ω(n)
+- or theta of n
 
 compare numbers next to each other 
 
@@ -148,8 +156,8 @@ Repeat n-1 times
 ```
 ### Recursion
 
- Recursion is the ability for a function to call itself. We haven’t seen this in code yet, but we’ve seen this in pseudocode for binary search:
-
+ Recursion is the ability for a function to call itself:
+```
     If no doors
         Return false
     If number behind middle door
@@ -162,8 +170,9 @@ Repeat n-1 times
  
  
  ```
+ We’re using the same “search” algorithm for each half. This seems like a cyclical process that will never end, but we’re actually changing the input to the function and dividing the problem in half each time, stopping once there are no more doors left.
 void draw(int n);
-  
+  ```
 int main(void)
 {
     int height = get_int("Height: ");
@@ -200,7 +209,11 @@ What is a piramd of height 4? a piramid of height 3 + one more roll, same logic 
 ####
 
 ```
-### Merge sort uses more memory but it's faster O(log n)
+### Merge sort 
+
+uses more memory but it's faster
+- O(log n)
+- Ω(n \log n)
 
 ```
 If only one number
@@ -210,6 +223,7 @@ Else
     Sort right half of number
     Merge sorted halves
 ```
+
 How the algorithm works
 
 ```   
@@ -320,4 +334,3 @@ This time, the 2 is the next smallest, so we’ll move that down, and repeat thi
 
 
 ```
-if you happen to have a data set that is very often sorted, you might want to stick with bubble sort. 
