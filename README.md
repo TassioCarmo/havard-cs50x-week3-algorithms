@@ -1,4 +1,4 @@
-# Introduction to algorithms
+# Introduction to algorithms concepts
 ## What did i learn?
 
 ### Search
