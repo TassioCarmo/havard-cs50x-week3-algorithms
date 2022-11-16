@@ -1,7 +1,7 @@
 # Introduction to algorithms concepts
 ## What did i learn?
 
-### Search
+## Search
 
 Think an array as a bunch of close lockets, because  the computer can’t look at all of the elements at once with an outside view. Instead, a computer can only to look at them one at a time
 
